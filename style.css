@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+.getwaveshome{
+    transform: translateY(-335px);
+}
+
+/* .bg-transparant{
+    background-color: rgba(0, 0, 0, 0.11);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+} */
+
+.navbar{
+    padding: 15px 8%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 125px;
+    transform: translateY(-350px);
+    max-width: 800px;
+    color: white;
+}
+
+.profile h3{
+    font-size: 35px;
+}
+
+.profile h1{
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+.profile span{
+    color: black;
+}
+
+.profileimage {
+    width: 350px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-left: 900px;
+    transform: translateY(360px);
+}
+
+.profile h2 {
+    color: white;
+}
+
+.profile h4 {
+    color: white;
+    transform: translateY(-10px);
+}
+
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+.btn-1{
+    padding: 10px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.btn-2{
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.gradiasi {
+    transform: translateY(-340px);
+    background : linear-gradient(#fffeff 0%, #ffffffb5 40%, #fdfbff00 100%);
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.skill {
+    padding-top: 75px;
+    transform: translateY(-300px);
+}
+
+.myskill {
+    transform: translateY(40px);
+}
+
+.card {
+    transform: translateY(100px);
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(35px);
+    background-color: white;
+    transition: 0.5s;
+}
+
+.card-text {
+    font-size: 13px;
+}
+
+.footer {
+    background-color: white;
+    padding-bottom: 20px;
+    transform: translateY(-1px);
+}
+
+.contact a {
+    color: black;
+    font-size: 20px;
+}
+
+.wm {
+    transform: translateY(25px);
+}
+
+.portofolio{
+    transform: translateY(80px);
+}
+
+.portofolio p {
+    color: white;
+    font-size: 18px;
+    margin-left: 650px;
+    transform: translateY(200px);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.imgform {
+    margin-left: 150px;
+    transform: translateY(-120px);
+    width: 350px;
+}
+
+.btn-form {
+    padding: 10px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-left: 750px;
+}
+.btn-form:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.portofolio2 {
+    transform: translateY(-300px);
+    margin-bottom: -150px;
+}
+
+.portofolio2 p {
+    color: white;
+    font-size: 18px;
+    transform: translateY(-30px);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.imgform2 {
+    margin-left: 950px;
+    transform: translateY(300px);
+    width: 350px;
+}
+
+.btn-dfigma {
+    padding: 10px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-left: 100px;
+}
+.btn-dfigma:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
